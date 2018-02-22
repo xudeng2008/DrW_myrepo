@@ -1,3 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 s = open('rosalind_dna.txt','r').read()
-print s.count("A"), s.count("C"), s.count("G"), s.count("T")
+for n in ["A","C","G","T"]:
+    print(s.count(n), end=' ')
